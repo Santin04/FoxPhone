@@ -11,8 +11,8 @@ header {
     height: 100vh;
     font-size: 21px;
     background-color: orangered;
-    position: absolute;
-    margin-top: -15px;
+    position: fixed;
+    top: 0px;
     border-radius: 0px 20px 20px 0px;
 }
 

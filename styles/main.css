@@ -6,13 +6,14 @@
 
 body {
     background-color: black;
+    color: white;
 }
 
 /* pesquisa de itens */
 .pesquisar {
-    margin-left: 315px;
+    margin-left: 300px;
     margin-top: 15px;
-    color: white;
+    width: 800px;
 }
 
 #buscando {
@@ -44,4 +45,34 @@ body {
     cursor: pointer;
     height: 30px;
     width: 30px;
+}
+
+/* produtos em promoção */
+
+.promo {
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.promo h1 {
+    font-size: 30px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto {
+    width: 200px;
+}
+
+.produto img {
+    height: 150px;
+    width: 200px;
+}
+
+.produto a {
+    color: white;
 }
