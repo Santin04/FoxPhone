@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    /* prendendo rodapé no fim da página */
+    margin-top: 100vh;
+}
