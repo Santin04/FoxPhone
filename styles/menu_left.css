@@ -12,6 +12,8 @@ header {
     font-size: 21px;
     background-color: orangered;
     position: fixed;
+    top: 0;
+    border-radius: 0px 20px 20px 0px;
 }
 
 #logotipo {

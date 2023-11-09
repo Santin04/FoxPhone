@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* pesquisa de itens */
+.pesquisar {
+    margin-left: 315px;
+    margin-top: 20px;
+    color: white;
+}
+
+#buscando {
+    height: 30px;
+    width: 650px;
+    border-radius: 15px;
+    border: solid 2px white;
+}
+
+.titulo_buscar {
+    margin-left: 10px;
+}
+
+.buscar {
+    display: flex;
+}
+
+.buscar button img {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.buscar button {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}

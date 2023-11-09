@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fox Phone</title>
     <link rel="stylesheet" href="styles/menu_left.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/carrossel.css">
 </head>
 <body>
     <header>
@@ -17,7 +19,7 @@
             <ul>
                 <li><a href="">Iphone</a></li>
                 <li><a href="">Samsung</a></li>
-                <li><a href="">Lg</a></li>
+                <li><a href="">Motorola</a></li>
                 <li id="ultimo"><a href="">Xiaomi</a></li>
             </ul>
             <h2>Acessórios</h2>
@@ -31,7 +33,25 @@
     </header>
 
     <main>
-        
+        <div class="pesquisar">
+            <h2 class="titulo_buscar">Buscar:</h2>
+            <div class="buscar">
+                <input type="text" name="buscando" id="buscando">
+                <button><img src="images/lupa.png" alt="lupa"></button>
+            </div>
+        </div>
+
+        <div class="container-slider">
+            <button id="prev-button"><img src="images/SetaEsquerda.png" alt="avançar"></button>
+            <div class="container-images">
+              <img src="images/teste01.jpg" alt="imagem cartorio" class="slider on">
+              <img src="images/teste02.webp" alt="imagem cartorio" class="slider">
+              <img src="images/teste03.jpg" alt="imagem cartorio" class="slider">
+              <img src="images/teste04.jpg" alt="imagem cartorio" class="slider">
+            </div>
+            <button id="next-button"><img src="images/SetaDireita.png" alt="retornar"></button>
+          </div>
+        <script src="scripts/carrossel.js"></script>
     </main>
 </body>
 </html>
