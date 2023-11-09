@@ -11,15 +11,17 @@ body {
 /* pesquisa de itens */
 .pesquisar {
     margin-left: 315px;
-    margin-top: 20px;
+    margin-top: 15px;
     color: white;
 }
 
 #buscando {
     height: 30px;
-    width: 650px;
+    width: 770px;
     border-radius: 15px;
     border: solid 2px white;
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 .titulo_buscar {

@@ -17,12 +17,20 @@ header {
 }
 
 #logotipo {
-    height: 120px;
-    width: 200px;
+    height: 100px;
+    width: 230px;
     margin: auto;
     margin-top: 25PX;
     margin-bottom: 0px;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#logotipo img {
+    height: 100px;
+    width: 230px;
+    border-radius: 10px;
+    border: solid 1px solid;
 }
 
 nav {

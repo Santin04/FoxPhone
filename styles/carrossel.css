@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.position_carrossel {
+    width: 800px;
+    margin-left: 315px;
+    margin-top: 20px;
+}
   
 .container-slider {
     display: flex;
@@ -11,7 +17,6 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    margin-top: 50px;
 }
   
 .container-images {
@@ -19,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 750px;
+    width: 800px;
 }
   
 .slider {
@@ -47,11 +52,11 @@
 
 #prev-button{
     z-index: 10;
-    margin-left: -690px;
+    margin-left: -740px;
 }
 
 #next-button {
-    margin-left: 690px;
+    margin-left: 740px;
 }
   
 #prev-button img, #next-button img {
