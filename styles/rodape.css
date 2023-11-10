@@ -5,9 +5,40 @@
 }
 
 footer {
-    height: 30px;
+    height: 70px;
     width: 100%;
-    background-color: white;
-    /* prendendo rodapé no fim da página */
-    margin-top: 100vh;
+    background-color: rgb(224, 147, 81);
+    margin-top: 40px;
+    display: flex;
+}
+
+.info {
+    width: 70%;
+    color: black;
+    display: flex;
+    margin-left: 30%;
+    align-items: center;
+}
+
+.cnpj {
+    margin-right: 25px;
+}
+
+.endereco {
+    padding-left: 30px;
+    border-left: solid 1px black;
+}
+
+.contato {
+    width: 30%;
+    color: black;
+    margin-left: 50px;
+}
+
+.contato p {
+    margin-top: -4px;
+}
+
+.contato h3 {
+    margin-top: -2px;
 }
