@@ -10,6 +10,9 @@ footer {
     background-color: rgb(224, 147, 81);
     margin-top: 40px;
     display: flex;
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
 }
 
 .info {
