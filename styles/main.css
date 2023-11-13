@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: black;
-    color: white;
-    overflow-x: hidden;
-}
-
 /* pesquisa de itens */
 .pesquisar {
     margin-left: 300px;

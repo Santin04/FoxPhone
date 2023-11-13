@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.estoqueVazio {
+    background-color: rgb(224, 147, 81);
+    width: 350px;
+    height: 175px;
+    color: black;
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 0px 100px 0px;
+    font-size: 18px;
+}
