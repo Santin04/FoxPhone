@@ -71,3 +71,21 @@
 .produto a {
     color: white;
 }
+
+@media (min-width: 1500px) {
+    .pesquisar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 950px;
+    }
+
+    #buscando {
+        width: 920px;
+    }
+
+    .promo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 950px;
+    }
+}
