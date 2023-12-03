@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     min-height: 100vh;
     position: relative;
-    background-color: black;
+    background-color: rgb(35, 35, 35);
     color: white;
     overflow-x: hidden;
 }
